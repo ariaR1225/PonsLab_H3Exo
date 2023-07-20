@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/install
+
+Name: rqt_h3
+Description: Description of rqt_h3
+Version: 1.1.0
+Cflags: 
+Libs: -L${prefix}/lib -lrqt_h3
+Requires: controller_manager_msgs h3_msgs rosbag roscpp roslint rqt_gui rqt_gui_cpp std_msgs

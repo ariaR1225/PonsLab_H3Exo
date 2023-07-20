@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/devel
+
+Name: h3_robot_state_controller
+Description: Description of h3_robot_state_controller
+Version: 1.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: controller_interface h3_hardware_interface hardware_interface pluginlib roscpp sensor_msgs std_msgs h3_msgs

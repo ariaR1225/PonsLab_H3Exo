@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rqt_h3</name>
+  <version>1.1.0</version>
+  <description>A rqt_h3 plugin to the Task Controller of Exo-H3</description>
+
+  <maintainer email="support@technaid.todo">Support Team</maintainer>
+
+ <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>controller_manager_msgs</build_depend>
+  <build_depend>h3_msgs</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslint</build_depend>
+  <build_depend>rqt_gui</build_depend>
+  <build_depend>rqt_gui_cpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  
+  <build_export_depend>controller_manager_msgs</build_export_depend>d>
+  <build_export_depend>h3_msgs</build_export_depend>
+  <build_export_depend>rosbag</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>roslint</build_export_depend>
+  <build_export_depend>rqt_gui</build_export_depend>
+  <build_export_depend>rqt_gui_cpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>controller_manager_msgs</exec_depend>
+  
+  <exec_depend>h3_msgs</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>roslint</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_cpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

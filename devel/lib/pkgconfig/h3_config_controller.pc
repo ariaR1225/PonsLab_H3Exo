@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/devel
+
+Name: h3_config_controller
+Description: Description of h3_config_controller
+Version: 1.1.0
+Cflags: -I/home/ponslab/catkin_ws/src/technaid_h3_ros-main/h3_config_controller/include
+Libs: -L${prefix}/lib 
+Requires: controller_interface hardware_interface roscpp std_msgs h3_hardware_interface h3_msgs

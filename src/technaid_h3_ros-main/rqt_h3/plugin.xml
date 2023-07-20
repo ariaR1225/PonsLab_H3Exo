@@ -1,0 +1,19 @@
+<library path="lib/librqt_h3">
+  <class name="rqt_h3/RQTH3" type="rqt_h3::RQTH3" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+    A GUI plugin for command EXO-H3
+    </description>
+    <qtgui>
+      
+      <group>
+        <label>Robot Tools</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to Robot Tools.</statustip>
+      </group>
+
+      <label>H3 command </label>
+      <icon type="file">resource/h3.png</icon>
+      <statustip>A GUI plugin for command EXO-H3</statustip>
+    </qtgui>
+  </class>
+</library>

@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/install
+
+Name: h3_config_controller
+Description: Description of h3_config_controller
+Version: 1.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: controller_interface hardware_interface roscpp std_msgs h3_hardware_interface h3_msgs

@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/devel
+
+Name: dynamic_tutorials
+Description: Description of dynamic_tutorials
+Version: 0.0.0
+Cflags: -I/home/ponslab/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure rospy

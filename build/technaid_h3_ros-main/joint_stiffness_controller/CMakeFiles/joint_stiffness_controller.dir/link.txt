@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libjoint_stiffness_controller.so -o /home/ponslab/catkin_ws/devel/lib/libjoint_stiffness_controller.so CMakeFiles/joint_stiffness_controller.dir/src/joint_stiffness_controller.cpp.o 

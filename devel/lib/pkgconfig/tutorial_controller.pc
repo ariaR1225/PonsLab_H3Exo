@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/devel
+
+Name: tutorial_controller
+Description: Description of tutorial_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

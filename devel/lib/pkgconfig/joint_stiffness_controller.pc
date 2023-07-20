@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/devel
+
+Name: joint_stiffness_controller
+Description: Description of joint_stiffness_controller
+Version: 1.1.0
+Cflags: -I/home/ponslab/catkin_ws/src/technaid_h3_ros-main/joint_stiffness_controller/include
+Libs: -L${prefix}/lib 
+Requires: controller_interface hardware_interface pluginlib realtime_tools roscpp std_msgs h3_hardware_interface

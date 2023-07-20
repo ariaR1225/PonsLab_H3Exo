@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/install
+
+Name: h3_hardware_interface
+Description: Description of h3_hardware_interface
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lh3_hardware_interface
+Requires: control_msgs control_toolbox controller_interface controller_manager controller_manager_msgs roscpp std_msgs hardware_interface

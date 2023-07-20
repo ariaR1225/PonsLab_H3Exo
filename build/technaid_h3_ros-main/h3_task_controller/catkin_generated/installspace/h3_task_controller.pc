@@ -1,0 +1,8 @@
+prefix=/home/ponslab/catkin_ws/install
+
+Name: h3_task_controller
+Description: Description of h3_task_controller
+Version: 1.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: controller_interface h3_hardware_interface pluginlib roscpp std_msgs h3_msgs
